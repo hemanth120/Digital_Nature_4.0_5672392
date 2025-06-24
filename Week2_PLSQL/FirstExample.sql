@@ -1,0 +1,8 @@
+SET SERVEROUTPUT ON;
+DECLARE
+  name VARCHAR(100);
+BEGIN
+name := 'Hemanth';
+DBMS_OUTPUT.PUT_LINE('WELCOME'||name);
+END;
+/
