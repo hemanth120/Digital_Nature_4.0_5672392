@@ -1,7 +1,7 @@
-
+ 
 SELECT name FROM v$pdbs;
 ALTER SESSION SET CONTAINER = XEPDB1;  -- or your actual PDB name
-CREATE USER bank_schema IDENTIFIED BY ******;
+CREATE USER bank_schema IDENTIFIED BY bank9495;
 GRANT CONNECT, RESOURCE TO bank_schema;
 
 ALTER USER bank_schema QUOTA UNLIMITED ON USERS;  
