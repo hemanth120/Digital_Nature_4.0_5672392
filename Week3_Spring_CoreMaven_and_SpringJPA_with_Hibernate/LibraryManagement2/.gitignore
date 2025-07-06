@@ -1,0 +1,63 @@
+# =====================
+# Java
+# =====================
+*.class
+*.jar
+*.war
+*.ear
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Eclipse/IntelliJ IDEA
+# =====================
+*.iml
+.idea/
+*.iws
+*.ipr
+*.bak
+*.swp
+*~
+
+# =====================
+# Eclipse
+# =====================
+.classpath
+.project
+.settings/
+.target/
+
+# =====================
+# Maven
+# =====================
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# VSCode
+# =====================
+.vscode/
+
+# =====================
+# Application specific
+# =====================
+*.db
+*.docx
+*.xlsx
+
+# =====================
+# Environment
+# =====================
+.env
+*.pem
