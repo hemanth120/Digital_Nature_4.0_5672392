@@ -1,0 +1,31 @@
+.mydiv {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the table and heading */
+    color:green;
+}
+
+h1 {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: separate; /* Allow spacing between cells */
+    border-spacing: 5px; /* Add gaps between cells */
+    border: 2px solid #ccc; /* Outer border */
+}
+
+th, td {
+    border: 1px solid #888; /* Individual box borders */
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+}
+
+th {
+    background-color: #e8f5e9;
+    color: green;
+    font-weight: bold;
+}
